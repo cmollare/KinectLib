@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 	if (argc == 1)
 		displayMenu();
 
-	KinectInterface kinect("/home/christophe/Bureau/test/test.ONI", true);
+	KinectInterface kinect(argv[1], true);
 	ViewerOpenCV viewer;
 
 	KinectStruct data;

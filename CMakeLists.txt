@@ -7,13 +7,14 @@ include_directories(
 /usr/include/
 /usr/include/ni/
 ./
-)
-
-include_directories(
-#/usr/include/
-/usr/include/ni/
 ${OpenCV_INCLUDE_DIRS}
 )
+
+#include_directories(
+#/usr/include/
+#/usr/include/ni/
+#${OpenCV_INCLUDE_DIRS}
+#)
 
 set(src
 kinectInterface.h
